@@ -21,7 +21,7 @@ export const checkTz = async (username, retryCount = 1) => {
   const proxyUsername = username;
   const proxyPassword = process.env.JEDI;
 
-  // Extract country code from username (assuming format contains country code)
+  // Extract country code from username (assuming format contains country code) hh
   const countryCode = username.split("-")[2]?.toLowerCase();
 
   // Properly formatted proxy URL
@@ -71,3 +71,4 @@ export const checkTz = async (username, retryCount = 1) => {
     }
   }
 };
+
