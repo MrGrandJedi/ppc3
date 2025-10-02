@@ -1,0 +1,6 @@
+{
+  "proxyHost": "gw.netnut.net",
+  "proxyPort": "5959",
+  "proxyUser": "qualityser-res-%CODE%-sid-%RAND%",
+  "workflow": 2
+}
